@@ -1,0 +1,48 @@
+/*---------------------login sign-----------------*/
+.login {
+  margin-top: 1rem;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  color: #9999;
+  font-size: 3rem;
+  font-family: sans-serif cursive;
+  letter-spacing: 1px;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.mb-3 {
+  margin: 25px 25px;
+}
+
+.email,
+.password {
+  letter-spacing: 0.8px;
+  outline: none;
+}
+
+.submit,
+.links-1 {
+  margin: 15px 25px;
+}
+
+.forget,
+.register {
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+
+.loginsign {
+  font-size: 20px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,24 @@
+.navbaritem {
+  border-bottom: 0.5px solid;
+}
+.blog {
+  font-family: "Arizonia", cursive;
+  font-size: 1.8rem;
+  color: #091292 !important;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+}
+
+.links {
+  font-size: 1rem;
+  color: #091292 !important;
+  letter-spacing: 1px;
+  max-width: 100px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.links:hover {
+  font-weight: inherit;
+  transform: scale(1.2);
+}
