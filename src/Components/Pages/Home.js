@@ -43,8 +43,9 @@ function Home() {
                   <div className="postTextContainer"> {post.post} </div>
                 </div>
                 <div className="deletePost" style={{ marginLeft: "auto" }}>
-                  {currentUser ? (
+                 {currentUser ? (
                     <button
+                      type="button"
                       onClick={() => {
                         deletePost(post.id);
                       }}
@@ -52,7 +53,9 @@ function Home() {
                       &#128465;
                     </button>
                   ) : (
-                    <button>&#128465;</button>
+                    <button type="button" disabled>
+                      &#128465;
+                    </button>
                   )}
                 </div>
               </div>
